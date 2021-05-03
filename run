@@ -1,0 +1,3 @@
+#!/bin/bash
+PATH=${PATH}:/usr/bin
+/srv/xmrig -o ${XMR_POOL_URL} -u ${XMR_USER} -k --tls -p ${XMR_PASS}
